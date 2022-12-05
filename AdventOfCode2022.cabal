@@ -27,6 +27,8 @@ library
       Common
       Day01.Part1
       Day01.Part2
+      Day02.Part1
+      Day02.Part2
   other-modules:
       Paths_AdventOfCode2022
   hs-source-dirs:

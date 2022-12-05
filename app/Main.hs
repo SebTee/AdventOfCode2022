@@ -8,7 +8,7 @@ main = do
   args <- getArgs
   case args of
     [d, p] -> do
-      inp <- loadInput day part
+      inp <- loadInput day
       putStrLn $ getSolution day part inp
       where
         day  = read d :: Int
