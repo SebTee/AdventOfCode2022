@@ -27,6 +27,8 @@ import Day11.Part1 (solve)
 import Day11.Part2 (solve)
 import Day12.Part1 (solve)
 import Day12.Part2 (solve)
+import Day13.Part1 (solve)
+import Day13.Part2 (solve)
   
 loadInput :: Int -> IO String
 loadInput d = readFile filePath
@@ -61,4 +63,6 @@ getSolution 11 1 = Day11.Part1.solve
 getSolution 11 2 = Day11.Part2.solve
 getSolution 12 1 = Day12.Part1.solve
 getSolution 12 2 = Day12.Part2.solve
+getSolution 13 1 = Day13.Part1.solve
+getSolution 13 2 = Day13.Part2.solve
 getSolution _ _ = error "Invalid day part"
